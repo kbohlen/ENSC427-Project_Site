@@ -1,9 +1,8 @@
 # ENSC427-Profile_Site
-Communications Network Project Website - Netflix over LTE Content Distribution Network Optimization
+Communications Network Project Website - **[Netflix over LTE Content Distribution Network Optimization](https://sfu.ca/~kbohlen)**
+
 
 ## Template
-[Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
-
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 Start Bootstrap was created by and is maintained by [David Miller](http://davidmiller.io/).
