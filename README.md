@@ -1,4 +1,4 @@
-# ENSC427-Profile_Site
+# ENSC427-Project_Site
 Communications Network Project Website - **[Netflix over LTE Content Distribution Network Optimization](https://sfu.ca/~kbohlen)**
 
 
