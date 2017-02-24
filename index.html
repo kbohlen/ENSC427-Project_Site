@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ENSC 427 Project Site</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">ENSC 427 Communication Networks</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#abstract">Abstract</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#details">Details</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#references">References</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 style="text-shadow: 1px 1px 2px #3f3f3f;" id="homeHeading">Netflix over LTE<br>Content Distribution Network<br>Optmization</h1>
+                <hr>
+                <p style="font-weight: 300;color: #222222">Group 2<br>Members:<br>Bohlen, Kurtis (kbohlen@sfu.ca)<br>Jovasevic, Dejan (djovasev@sfu.ca)<br>Thomas, Rohan (rohant@sfu.ca)</p>
+                <a href="#abstract" class="btn btn-primary btn-xl page-scroll">Read our Abstract</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="abstract">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Project Abstract</h2>
+                    <hr class="light">
+                    <p class="text-faded">In the United States and Canada alone, Netflix has north of 25 million users [1], accounting for over 30% of all downstream traffic in the US [2]. With so much traffic Netflix employs a system of servers that form a Content Distribution Network (CDN) from which the video “chunks” are cached and streamed to the user [3]. This is in an attempt to reduce the load on the network and improve the customer experience. With LTE providing throughput speeds similar to high speed internet access the demand for mobile live streamed HD video has increased [4]. We will investigate the performance of the LTE network for streaming Netflix movies to mobile devices and analyze how varying the proximity and design of Netflix’s CDN, called Open Connect, impacts this performance [5]. In our analysis we will look at the bit rates of the transfers, loss of packets, and delays. We will be using Riverbed Modeler to create testing scenarios, in which we will change the number and location of the CDNs video servers servicing both stationary and moving mobile devices.</p>
+                    <a href="#details" class="page-scroll btn btn-default btn-xl sr-button">Check it out!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About The Project</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-signal text-primary sr-icons"></i>
+                        <h3>LTE</h3>
+                        <p class="text-muted">Long-Term Evolution (LTE) is the latest technology deployed in high speed cellular networks allowing for speeds similar to cable high speed internet access. Over 60 countries have adopted the standard globally and the total number continues to grow.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-server text-primary sr-icons"></i>
+                        <h3>Netflix</h3>
+                        <p class="text-muted">With over 90 million worldwide users, Netflix is the home of on-demand video streaming for multiple platforms both wired and mobile. 4K quality makes it the ultimate viewing experience on devices connected to high speed networks.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cloud text-primary sr-icons"></i>
+                        <h3>CDN</h3>
+                        <p class="text-muted">We live in a world where users interact with web content based on their location. This is all the beauty of Content Distribution Networks (CDN) - where networks are distributed to reduce bandwidth needs, improve response times, and deliver a high quality of experience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-sitemap text-primary sr-icons"></i>
+                        <h3>Riverbed Modeler</h3>
+                        <p class="text-muted">Riverbed Modeler is a development environment containing numerous protocols and technologies - allowing users to model various network types and analyze their performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside>
+
+
+<section class="bg-primary" id="abstract">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Project Abstract</h2>
+                    <hr class="light">
+                    <p class="text-faded">
+
+
+-->
+    <section class="bg-dark" id="references">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"><!--col-lg-offset-2-->
+                    <h2 class="section-heading">References</h2>
+                    <hr class="primary">
+                    <p class="text-faded text-left">
+                    [1] V. K. Adhikari, Y. Guo, F. Hao, M. Varvello, V. Hilt, M. Steiner, Z. Zhang, "Unreeling netflix: Understanding and improving multi-CDN movie delivery," in Proc. IEEE INFOCOM, Orlando, FL, 2012, pp. 1620-1628. doi: 10.1109/INFCOM.2012.6195531<br>
+                    [2] V. K. Adhikari, Y. Guo, F. Hao, V. Hilt, Z. Zhang, M. Varvello, M. Steiner, "Measurement Study of Netflix, Hulu, and a Tale of Three CDNs," <i>IEEE/ACM Transactions on Networking</i>, vol. 23, no. 6, pp. 1984-1997, Dec. 2015. doi: 10.1109/TNET.2014.2354262<br>
+                    [3] J. Summers, T. Brecht, D. Eager and A. Gutarin, "Characterizing the workload of a netflix streaming video server," in Proc. IEEE International Symposium on Workload Characterization (IISWC), Providence, RI, 2016, pp. 1-12. doi: 10.1109/IISWC.2016.7581265<br>
+                    [4] C. D. Cranor, M. Green, C. Kalmanek, D. Shur, S. Si"Enhanced streaming services in a content distribution network," in IEEE Internet Computing, vol. 5, no. 4, pp. 66-75, Jul/Aug 2001. doi: 10.1109/4236.939452<br>
+                    [5] T. Böttger et al., Open Connect Everywhere: A Glimpse at the Internet Ecosystem through the Lens of the Netflix CDN, eprint arXiv:1606.05519, 2016, pp. 1-14.</p>
+                </div>
+                <!--<div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="copyright">Copyright &copy; Kurtis Bohlen 2017</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
